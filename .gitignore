@@ -1,0 +1,15 @@
+# Frontend
+frontend/recipe-finder-ui/node_modules/
+frontend/recipe-finder-ui/dist/
+frontend/recipe-finder-ui/.env
+
+# Backend
+recipe-finder/target/
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
