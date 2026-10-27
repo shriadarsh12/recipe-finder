@@ -1,10 +1,11 @@
-export default async function handler(req, res) {
+﻿export default async function handler(req, res) {
   if (req.method !== "GET") {
     return res.status(405).json({ error: "Method not allowed" });
   }
 
   const url = new URL(req.url, "http://localhost");
   const parts = url.pathname.split("/").filter(Boolean).slice(2);
+
   const route = parts[0];
   const base = "https://www.themealdb.com/api/json/v1/1";
 

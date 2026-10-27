@@ -26,3 +26,12 @@ dist-ssr
 .env
 .env.*
 !.env.example
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Build files
+node_modules/
+dist/
